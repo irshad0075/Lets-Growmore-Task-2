@@ -1,0 +1,49 @@
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color:yellow;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #959595;
+}
+
+/* Adjust other styles as needed */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background: #000;
+  color: white;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 75%;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+}
